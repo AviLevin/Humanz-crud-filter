@@ -40,28 +40,18 @@ const User = (props) => {
 
       <div className={classes["card-body"]}>
         <ul>
-          {props.city == null ? null : (
-            <li>
-              {" "}
-              <b>city: </b>
-              {props.city}
+        <li>
+              <b>id: </b> {props.id}
             </li>
-          )}
-          {props.email == null ? null : (
-            <li>
-              {" "}
-              <b>mail:</b>{" "}
-              <a href={`mailto:${props.email}?subject=Hi, ${props.name}`}>
-                {props.email}
-              </a>{" "}
+        <li>
+              <b>phone: </b> {props.phone}
             </li>
-          )}
-
-          {props.gender == null ? null : (
-            <li>
-              <b>gender: </b> {props.gender}
+        <li>
+              <b>IP address: </b> {props.ip}
             </li>
-          )}
+        <li>
+              <b>country </b> {props.country}
+            </li>
         </ul>
       </div>
 

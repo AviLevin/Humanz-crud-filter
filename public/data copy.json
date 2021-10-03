@@ -1,0 +1,238 @@
+[
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(1)",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 1,
+    "name": "Eve Firstwoman",
+    "city": "Taihua",
+    "email": "jmckinnon0@samsung.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/distinctioetsoluta.jpg?size=50x50&set=set1",
+    "car": true,
+    "type": "PART_TIME"
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(2)",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 2,
+    "name": "Sarah Firstancestor",
+    "city": "Pagnag",
+    "email": "ehorwell1@ed.gov",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/molestiaedignissimoscumque.bmp?size=50x50&set=set1",
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(3)",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 3,
+    "name": "Abraham Firstancestor",
+    "city": "Pleiku",
+    "email": "avremi89@gmail.com",
+    "gender": "Male",
+    "pic_url": "https://robohash.org/blanditiisliberoquidem.bmp?size=50x50&set=set1",
+    "car": true,
+    "type": "FULL_TIME"
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(4)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 4,
+    "name": "Isaac Secondancestor",
+    "city": "San Francisco",
+    "email": "pde3@4shared.com",
+    "gender": "Male",
+    "pic_url": "https://robohash.org/autaperiamconsectetur.bmp?size=50x50&set=set1",
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(5)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 5,
+    "name": "Portie Frissell",
+    "city": "Sumberingin Kulon",
+    "email": "pfrissell4@usa.gov",
+    "gender": "Male",
+    "pic_url": "https://robohash.org/accusantiumvoluptateut.png?size=50x50&set=set1",
+    "car": true
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(6)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 6,
+    "name": "mishell Tudgay",
+    "city": "Kotaagung",
+    "email": null,
+    "gender": "Female",
+    "pic_url": null,
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(7)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 7,
+    "name": "Nathanael Gecke",
+    "city": "Lityn",
+    "email": null,
+    "gender": "Male",
+    "pic_url": null,
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(8)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 8,
+    "name": "Lucas Asmus",
+    "city": "Göteborg",
+    "email": "lasmus7@thetimes.co.uk",
+    "gender": "Male",
+    "pic_url": "https://robohash.org/quodassumendaodio.bmp?size=50x50&set=set1",
+    "car": true
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(9)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 9,
+    "name": "Celka Balentyne",
+    "city": "Gavrilov-Yam",
+    "email": null,
+    "gender": "Female",
+    "pic_url": null,
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(10)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 10,
+    "name": "Cathee Phelit",
+    "city": "Xibing",
+    "email": "cphelit9@jigsy.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/fugiatreprehenderitiure.bmp?size=50x50&set=set1",
+    "car": true
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(11)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 11,
+    "name": "Alida Aujouanet",
+    "city": "Dagua",
+    "email": "aaujouaneta@wsj.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/placeatodioet.png?size=50x50&set=set1",
+    "car": true
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(12)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 12,
+    "name": "Kori Golsby",
+    "city": "Songhe",
+    "email": "kgolsbyb@edublogs.org",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/sitquiavoluptatem.png?size=50x50&set=set1",
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(13)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 13,
+    "name": "Nikita Stivey",
+    "city": "Ilām",
+    "email": null,
+    "gender": "Male",
+    "pic_url": null,
+    "car": true
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(14)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 14,
+    "name": "Heather McKee",
+    "city": "Plaza Huincul",
+    "email": "hmckeed@purevolume.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/repellendussitoccaecati.bmp?size=50x50&set=set1",
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(15)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 15,
+    "name": "Dorolisa Buckler",
+    "city": "Koror Town",
+    "email": "dbucklere@ihg.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/estharumexercitationem.png?size=50x50&set=set1",
+    "car": false
+  },
+  {
+    "__metadata": {
+      "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(16)",
+      "etag": "",
+      "1": "",
+      "type": "SP.Data.UsersListItem"
+    },
+    "id": 16,
+    "name": "Michelina Surgeoner",
+    "city": "San Francisco de Yare",
+    "email": "msurgeonerf@examiner.com",
+    "gender": "Female",
+    "pic_url": "https://robohash.org/voluptasminusqui.png?size=50x50&set=set1",
+    "car": true
+  }
+]

@@ -7,7 +7,7 @@ const Nav = () => {
 
     const myStyle={
         color: "white",
-        fontSize:"x-large"
+        
     }
     return (<div className={classes.navbar}>
     <nav className="navbar navbar-expand-lg navbar-light ">

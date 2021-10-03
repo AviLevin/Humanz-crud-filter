@@ -4,50 +4,41 @@
       "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(1)",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 384525101,
-    "name": "Priscilla Matthews",
+    "id": 1,
+    "name": "Eve Firstwoman",
     "city": "Taihua",
     "email": "jmckinnon0@samsung.com",
     "gender": "Female",
     "pic_url": "https://robohash.org/distinctioetsoluta.jpg?size=50x50&set=set1",
     "car": true,
-    "type": "PART_TIME",
-    "phone":"+972-523862672",
-    "ip": "80.119.117.187",
-    "country": "brazil"
+    "type": "PART_TIME"
   },
   {
     "__metadata": {
       "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(2)",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 660652470,
-    "name": "Benjamin Douglas",
+    "id": 2,
+    "name": "Sarah Firstancestor",
     "city": "Pagnag",
     "email": "ehorwell1@ed.gov",
     "gender": "Female",
     "pic_url": "https://robohash.org/molestiaedignissimoscumque.bmp?size=50x50&set=set1",
-    "car": false,
-    "phone":"+972-557712987" ,
-    "ip": "104.29.98.222",
-    "country": "Germany"
+    "car": false
   },
   {
     "__metadata": {
       "uri": "http://sharepoint/sites/contoso-bank-inc/_api/Web/Lists(guid'abbe35d3-0fa0-4f71-846b-72825510899e')/Items(3)",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 753184050,
-    "name": "Jordan Porter",
+    "id": 3,
+    "name": "Abraham Firstancestor",
     "city": "Pleiku",
     "email": "avremi89@gmail.com",
     "gender": "Male",
     "pic_url": "https://robohash.org/blanditiisliberoquidem.bmp?size=50x50&set=set1",
     "car": true,
-    "type": "FULL_TIME",
-    "phone":"+972-532509246",
-    "ip": "1.10.243.200",
-    "country": "Germany"
+    "type": "FULL_TIME"
   },
   {
     "__metadata": {
@@ -56,18 +47,13 @@
       "1": "",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 875322869,
-    "name": "Jacqueline Hughes",
+    "id": 4,
+    "name": "Isaac Secondancestor",
     "city": "San Francisco",
     "email": "pde3@4shared.com",
     "gender": "Male",
     "pic_url": "https://robohash.org/autaperiamconsectetur.bmp?size=50x50&set=set1",
-    "car": false,
-    "phone":"+972-551448824",
-    "ip": "103.255.178.143",
-    "country": "Denmark"
-    
-
+    "car": false
   },
   {
     "__metadata": {
@@ -76,16 +62,13 @@
       "1": "",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 338605579,
+    "id": 5,
     "name": "Portie Frissell",
     "city": "Sumberingin Kulon",
     "email": "pfrissell4@usa.gov",
     "gender": "Male",
     "pic_url": "https://robohash.org/accusantiumvoluptateut.png?size=50x50&set=set1",
-    "car": true,
-    "phone":"+972-543503816",
-    "ip": "88.144.81.24",
-    "country": "Denmark"
+    "car": true
   },
   {
     "__metadata": {
@@ -94,16 +77,13 @@
       "1": "",
       "type": "SP.Data.UsersListItem"
     },
-    "id": 68672047,
-    "name": "Max Dunn",
+    "id": 6,
+    "name": "mishell Tudgay",
     "city": "Kotaagung",
     "email": null,
     "gender": "Female",
     "pic_url": null,
-    "car": false,
-    "phone":"+972-542202337",
-    "ip": "62.113.223.73",
-    "country": "Israel"
+    "car": false
   }
   
 ]

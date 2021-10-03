@@ -1,19 +1,11 @@
 import React from "react";
-import classes from "./About.module.css";
-
+// import classes from "./About.module.css";
+import image1 from "./ha1.jpg"
 const About = () => {
   return (
-    <section className={classes.summary}>
-      <h2>Employees list</h2>
-      <p>
-        this App fetch data of employees from Api 
-      </p>
-      <p>
-        using react and vanila Js
-      </p>
-
-      
-    </section>
+    <div>
+      <img src={image1} alt="Paris" ></img>
+    </div>
   );
 };
 
