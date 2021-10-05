@@ -29,7 +29,7 @@ class Users extends Component {
       users: [],
       activeFilter: [],
       items: [],
-
+     
       imageLoadError: true,
 
       value: "",
@@ -37,19 +37,23 @@ class Users extends Component {
       id: "",
       phone: "",
       ip: "",
+      
     };
     this.handleNameChange = this.handleNameChange.bind(this);
     this.handlePhoneChange = this.handlePhoneChange.bind(this);
     this.handleIdChange = this.handleIdChange.bind(this);
     this.handleIpChange = this.handleIpChange.bind(this);
     this.handleAddItem = this.handleAddItem.bind(this);
+    
   }
 
   handleNameChange(event) {
     this.setState({
       name: event.target.value,
+     
     });
   }
+
 
   handlePhoneChange(event) {
     this.setState({
@@ -71,15 +75,16 @@ class Users extends Component {
     event.preventDefault();
 
     var newItem = {
+      
       name: this.state.name,
-      phone: this.state.phone,
-      id: this.state.id,
-      ip: this.state.ip,
+      phone:this.state.phone,
+      id:this.state.id,
+      ip:this.state.ip,
       done: false,
     };
 
     this.setState((prevState) => ({
-      users: [newItem, ...this.state.users],
+      users: [newItem, ...this.state.users], 
       name: "",
       phone: "",
       id: "",
@@ -137,13 +142,6 @@ class Users extends Component {
     console.log("deleted");
   };
 
-  handleValid = (event) => {
-    if (!/[0-9]/.test(event.key)) {
-      event.preventDefault();
-      alert("Please enter number");
-    }
-  };
-
   render() {
     const { error, isLoaded, users } = this.state;
     const { filterList, activeFilter } = this.state;
@@ -161,77 +159,75 @@ class Users extends Component {
 
     return (
       <div className={classes.container}>
-        <div className={classes.header2}>
-          <form className={classes.inputs}>
-            <div className="col">
-              <input
-                type="text"
-                className="form-control"
-                onChange={this.handleNameChange}
-                value={this.state.name}
-                placeholder="Name.."
-              />
-              <input
-                onKeyPress={this.handleValid}
-                type="number"
-                className="form-control"
-                onChange={this.handlePhoneChange}
-                value={this.state.phone}
-                placeholder="Phone.."
-              />
-              <input
-                onKeyPress={this.handleValid}
-                type="number"
-                className="form-control"
-                onChange={this.handleIdChange}
-                value={this.state.id}
-                placeholder="ID.."
-              />
-              <input
-                onKeyPress={this.handleValid}
-                type="number"
-                className="form-control"
-                onChange={this.handleIpChange}
-                value={this.state.ip}
-                placeholder="IP.."
-              />
-            </div>
-            <div className="col-md-3">
-              <button
-                className="btn btn-primary"
-                onClick={this.handleAddItem}
-                disabled={!this.state.name}
-              >
-                {"Add"}
-              </button>
-            </div>
-          </form>
-
-          <div className={classes.checklist}>
-            <form>
-              <label htmlFor="myInput">All</label>
-              &nbsp;&nbsp;
-              <input
-                id="myInput"
-                type="radio"
-                onClick={() => this.onFilterChange("ALL")}
-                checked={activeFilter.length === filterList.length}
-              />
-              {this.state.filterList.map((filter) => (
-                <React.Fragment>
-                  &nbsp;&nbsp;&nbsp;
-                  <label htmlFor={filter.id}>{filter.country}</label>
-                  &nbsp;&nbsp;
-                  <input
-                    id={filter.id}
-                    type="radio"
-                    checked={activeFilter.includes(filter.country)}
-                    onClick={() => this.onFilterChange(filter.country)}
-                  />
-                </React.Fragment>
-              ))}
-            </form>
+      <div className={classes.header2}>
+        
+        <form className={classes.inputs} >
+          <div className="col">
+            <input
+              type="text"
+              className="form-control"
+              onChange={this.handleNameChange}
+              value={this.state.name}
+              placeholder="Name.."
+            />
+            <input
+              type="text"
+              className="form-control"
+              onChange={this.handlePhoneChange}
+              value={this.state.phone}
+              placeholder="Phone.."
+            />
+            <input
+              type="text"
+              className="form-control"
+              onChange={this.handleIdChange}
+              value={this.state.id}
+              placeholder="ID.."
+            />
+            <input
+              type="text"
+              className="form-control"
+              onChange={this.handleIpChange}
+              value={this.state.ip}
+              placeholder="IP.."
+            />
           </div>
+          <div className="col-md-3">
+            <button
+              className="btn btn-primary"
+              onClick={this.handleAddItem}
+              disabled={!this.state.name}
+            >
+              {"Add" }
+            </button>
+          </div>
+        </form>
+
+        <div className={classes.checklist}>
+          <form>
+            <label htmlFor="myInput">All</label>
+            &nbsp;&nbsp;
+            <input
+              id="myInput"
+              type="radio"
+              onClick={() => this.onFilterChange("ALL")}
+              checked={activeFilter.length === filterList.length}
+            />
+            {this.state.filterList.map((filter) => (
+              <React.Fragment>
+                &nbsp;&nbsp;&nbsp;
+                <label htmlFor={filter.id}>{filter.country}</label>
+                &nbsp;&nbsp;
+                <input
+                  id={filter.id}
+                  type="radio"
+                  checked={activeFilter.includes(filter.country)}
+                  onClick={() => this.onFilterChange(filter.country)}
+                />
+              </React.Fragment>
+            ))}
+          </form>
+        </div>
         </div>
 
         <div className="row">
